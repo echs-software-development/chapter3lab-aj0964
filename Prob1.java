@@ -5,11 +5,11 @@ public class Prob1 {
  Scanner Scan = new Scanner(System.in);
  System.out.print("Enter an interger: ");
  int num = Scan.nextInt();
-  if (num >= 5) || (num <= 76) {
-   System.out.println("False");
+  if (!(num >= 5) && (num <= 76)) {
+   System.out.println("True");
  }
 else {
-  System.out.println("True");
+  System.out.println("False");
 }
 
 
